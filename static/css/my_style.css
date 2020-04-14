@@ -1,0 +1,169 @@
+body{
+    background-color: #f0ebeb;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    animation-name: mudaCor;
+    font-family: sans-serif;
+    animation-duration: 5s;
+    color: red;
+}
+
+h2{
+    font-family: sans-serif;    
+}
+
+@keyframes mudaCor {
+    from {color:rgb(255, 255, 255);}
+    to {color: red;}
+}
+
+#cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    box-shadow: black 2px 2px 5px;
+}
+
+#conteudo{
+ box-shadow: black 2px 2px 5px;
+ background-color: white;
+ margin-left: 5%;
+ margin-right: 5%;
+ padding: 2%;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-decoration: unset;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+
+#navbar {
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#imgCovid{
+    width: 80%;
+    border-radius: 100px;
+}
+
+#tituloDestaque {
+    display: flex;
+    justify-content: center;
+    text-shadow: black 1px 1px 5px;
+}
+
+#noticiasline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticiaDestaque {
+    border:#8469C2 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: black 2px 2px 3px;
+}
+
+.imgDestaque {
+    background-color: black;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+#author {
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+    border-radius: 100px;
+}
+
+h3 {
+    padding: 5px;;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-shadow: black 1px 1px 5px;
+}
+
+#totiText {
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.descDestaque {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+#rodape {
+    margin-top: 30px;
+}
+
+#redesSociais {    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 50px;
+}
+
+.rede {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#email {
+    margin-right: 50px;
+}
+
+#receba {
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #8469C2;
+    width: 100px;
+    height: 60px;
+    border: #d9c8ff 1px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    box-shadow: rgb(185, 185, 185) 2px 2px 8px;
+    border-radius: 10px;
+}
